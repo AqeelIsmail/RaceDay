@@ -1,0 +1,68 @@
+name: RaceDay Repository Validation
+
+"on":
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+
+jobs:
+  validate-repository:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Check docs folder exists
+        run: |
+          test -d docs
+          echo "SUCCESS: docs folder found."
+
+      - name: Check Requirements Analysis exists
+        run: |
+          test -f docs/RequirementsAnalysis.md
+          echo "SUCCESS: Requirements Analysis found."
+
+      - name: Check Entity List exists
+        run: |
+          test -f docs/EntityList.md
+          echo "SUCCESS: Entity List found."
+
+      - name: Check ERD file exists
+        run: |
+          test -f docs/PROG6212ERD.drawio.png
+          echo "SUCCESS: ERD file found."
+
+      - name: Check API Endpoint Plan exists
+        run: |
+          test -f docs/API_Endpoint_Plan.md
+          echo "SUCCESS: API Endpoint Plan found."
+
+      - name: Check SQL Script exists
+        run: |
+          test -f docs/SQLQueryRaceDay.sql
+          echo "SUCCESS: SQL Script found."
+
+      - name: Check Sample Data Script exists
+        run: |
+          test -f docs/SQLQuerySampleData.sql
+          echo "SUCCESS: Sample Data Script found."
+
+      - name: Check README exists
+        run: |
+          test -f README.md
+          echo "SUCCESS: README found."
+
+      - name: Display Repository Structure
+        run: |
+          echo "Repository Structure:"
+          ls -R
+
+      - name: Validation Complete
+        run: |
+          echo "All required Part 1 files are present."
