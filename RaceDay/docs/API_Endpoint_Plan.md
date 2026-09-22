@@ -112,7 +112,7 @@ The following roles are supported by the system:
 | **Total Endpoints**    | **38**                  |
 
 **Planned Authentication Method**
-- JWT (JSON Web Tokens)
+-  (JSON Web Tokens)
 - Role-Based Access Control (RBAC)
 - Password hashing using BCrypt
 
