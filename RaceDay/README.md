@@ -171,3 +171,5 @@ Entities included:
 
 File:
 docs/API_Endpoint_Plan.md
+
+Youtube Link: https://youtu.be/-en-hiFf1so
