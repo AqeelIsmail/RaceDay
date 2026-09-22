@@ -354,7 +354,7 @@ The following presumptions apply to the system's original version:
 - Inaccurate data could arise from insufficient validation.
 
 **11. Summary**
-A role-based event management system called RaceDay was created to assist the road running, walking, and cycling communities in South Africa. In addition to giving participants a simple and effective way to find events, enter races, and monitor their own performance, the platform will allow organizers to manage events, categories, enrollments, and results. Through a cutting-edge web-based solution, the system will increase operational effectiveness, lessen administrative burden, and improve user experience.
+A based event management system called RaceDay was created to assist the road running, walking, and cycling communities in South Africa. In addition to giving participants a simple and effective way to find events, enter races, and monitor their own performance, the platform will allow organizers to manage events, categories, enrollments, and results. Through a cutting-edge web-based solution, the system will increase operational effectiveness, lessen administrative burden, and improve user experience.
 
 
 
