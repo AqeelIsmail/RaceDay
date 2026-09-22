@@ -114,7 +114,7 @@ The following roles are supported by the system:
 **Planned Authentication Method**
 - JWT (JSON Web Tokens)
 - Role-Based Access Control (RBAC)
-- Password hashing using BCrypt
+- Password hashing using BCryp
 
 **Standard HTTP Status Codes Used**
 
