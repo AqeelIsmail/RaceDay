@@ -9,7 +9,8 @@ name: RaceDay Repository Validation
     branches:
       - main
       - master
-
+  workflow_dispatch: ### mai
+    
 jobs:
   validate-repository:
     runs-on: ubuntu-latest
